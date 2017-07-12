@@ -24,7 +24,7 @@ import Foundation
 
 public struct RageProducts {
   
-  public static let GirlfriendOfDrummerRage = "GirlfriendOfDrummerRage"
+  public static let GirlfriendOfDrummerRage = "org.ykws.InAppPurchase.GirlFriendOfDrummerRage"
   
   fileprivate static let productIdentifiers: Set<ProductIdentifier> = [RageProducts.GirlfriendOfDrummerRage]
 
