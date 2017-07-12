@@ -77,6 +77,7 @@ extension IAPHelper {
   }
   
   public func restorePurchases() {
+    SKPaymentQueue.default().restoreCompletedTransactions()
   }
 }
 
