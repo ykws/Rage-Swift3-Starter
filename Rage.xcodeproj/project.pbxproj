@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17A72B6F1C503F36007E18ED /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A72B6E1C503F36007E18ED /* ProductCell.swift */; };
+		1F8BA2881F1659A500BDC3C8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8BA2871F1659A500BDC3C8 /* StoreKit.framework */; };
 		64180AAD1C18883300626C11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64180AA91C18883300626C11 /* LaunchScreen.xib */; };
 		64180AAE1C18883300626C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64180AAB1C18883300626C11 /* Main.storyboard */; };
 		64D62BE21C121CFD0059469C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D62BD61C121CFD0059469C /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		17A72B6E1C503F36007E18ED /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductCell.swift; path = Rage/ProductCell.swift; sourceTree = SOURCE_ROOT; };
+		1F8BA2871F1659A500BDC3C8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		5DAF8FFB1AF403640068C264 /* Rage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64180AAA1C18883300626C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Rage/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
 		64180AAC1C18883300626C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Rage/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
@@ -37,17 +39,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F8BA2881F1659A500BDC3C8 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F8BA2861F1659A500BDC3C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F8BA2871F1659A500BDC3C8 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5DAF8FF21AF403640068C264 = {
 			isa = PBXGroup;
 			children = (
 				5DAF8FFD1AF403640068C264 /* Rage */,
 				5DAF8FFC1AF403640068C264 /* Products */,
+				1F8BA2861F1659A500BDC3C8 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -124,7 +136,7 @@
 						LastSwiftMigration = 0800;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
