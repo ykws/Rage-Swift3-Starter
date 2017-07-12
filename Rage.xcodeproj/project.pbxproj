@@ -293,7 +293,7 @@
 				DEVELOPMENT_TEAM = NYT8BVWJBJ;
 				INFOPLIST_FILE = "$(SRCROOT)/Rage/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Rage;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ykws.InAppPurchase;
 				PRODUCT_NAME = Rage;
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
@@ -309,7 +309,7 @@
 				DEVELOPMENT_TEAM = NYT8BVWJBJ;
 				INFOPLIST_FILE = "$(SRCROOT)/Rage/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Rage;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ykws.InAppPurchase;
 				PRODUCT_NAME = Rage;
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
